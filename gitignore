@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# Tests / couverture
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- ANTLR4 ---
+# Cache / jars locaux d'antlr4 (les fichiers générés gramLexer.py, gramParser.py,
+# gramListener.py, *.interp et *.tokens restent versionnés : le sujet les fournit
+# pré-compilés et mdp.py en a besoin pour tourner sans antlr4 installé)
+.antlr/
+*.jar
+
+# --- Rapport LaTeX (rapport PDF à rendre) ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+
+# --- Sorties générées (graphes, simulations) ---
+*.dot.png
+output/
+results/
+
+# --- IDE / éditeurs ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Systèmes ---
+.DS_Store
+Thumbs.db
+desktop.ini
