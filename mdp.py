@@ -7,10 +7,12 @@ import sys
 class gramPrintListener(gramListener):
 
     def __init__(self):
+        
         pass
         
     def enterDefstates(self, ctx):
         print("States: %s" % str([str(x) for x in ctx.ID()]))
+
 
     def enterDefactions(self, ctx):
         print("Actions: %s" % str([str(x) for x in ctx.ID()]))
@@ -44,3 +46,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
